@@ -7,7 +7,7 @@ const RevenueContent = () => {
   return (
     <>
       <div className="content-body">
-        {/* <!-- row --> */}
+      
         <div className="container-fluid">
           <div className="row">
             <SlabList />
