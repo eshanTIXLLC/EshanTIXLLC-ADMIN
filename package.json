@@ -1,5 +1,5 @@
 {
-  "name": "Eshan-admin-dashboard",
+  "name": "strike-admin-dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,11 +18,11 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-  "dev": "react-scripts --openssl-legacy-provider start",
-  "build": "set CI=false && react-scripts --openssl-legacy-provider build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+    "dev": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -40,8 +40,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "engines": {
-  "node": "18.x"
-}
+  }
 }
